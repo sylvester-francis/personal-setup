@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Homebrew Bundle lockfile (generated at install time)
+Brewfile.lock.json
+
+# Editor / OS cruft
+*.swp
+*~
+.idea/
+.vscode/
