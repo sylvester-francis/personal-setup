@@ -261,7 +261,7 @@ done
 
 info "Installing ${#SELECTED[@]} group(s) via 'brew bundle'..."
 echo
-if brew bundle --file="$FINAL" --no-lock; then
+if brew bundle --file="$FINAL"; then
   echo
   ok "All done."
 else
